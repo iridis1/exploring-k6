@@ -1,0 +1,11 @@
+{
+  "name": "exploring-k6",
+  "version": "1.0.0",
+  "description": "Performance testing investigation",
+  "main": "index.js",
+  "scripts": {
+    "test": "k6 run --out json=results.json test-nutrinum.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
