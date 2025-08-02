@@ -18,7 +18,7 @@ export function setup() {
   console.log('setup');
 }
 
-export default function() {
+export default function main() {
   let res = http.get(`${BASE_URL}/Nutrient/Fe`);
   check(res, { "NI: status is 200": (res) => res.status === 200 });
   check(res, { "NI: contains IJzer": (res) => res.body.includes("IJzer") });

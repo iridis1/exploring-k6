@@ -4,7 +4,7 @@
   "description": "Performance testing investigation",
   "main": "index.js",
   "scripts": {
-    "test": "k6 run --out json=results.json test-nutrinum.js"
+    "test": "k6 run --out json=results.json test-nutrinum-api.js"
   },
   "author": "",
   "license": "ISC"
